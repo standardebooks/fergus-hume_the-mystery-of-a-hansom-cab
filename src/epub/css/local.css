@@ -4,8 +4,50 @@
 header{
 	text-align: center;
 	font-variant: all-small-caps;
+	margin-bottom: 0.5em;
+}
+
+footer p{
+	text-align: right;
 }
 
 strong{
+	font-variant: small-caps;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:song"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:song"] + p{
+	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+.signature{
 	font-variant: small-caps;
 }
