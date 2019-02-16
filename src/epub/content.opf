@@ -48,6 +48,7 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4223</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100763166</dc:source>
+		<meta property="se:production-notes">WARNING: Typogrify messes up the curling of single quotes in dialect after a dash. There are very many such instances.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Mystery_of_a_Hansom_Cab</meta>
