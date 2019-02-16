@@ -3,12 +3,14 @@
 
 header{
 	text-align: center;
+	text-indent: 0;
 	font-variant: all-small-caps;
 	margin-bottom: 0.5em;
 }
 
 footer p{
 	text-align: right;
+	text-indent: 0;
 }
 
 strong{
@@ -18,6 +20,11 @@ strong{
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+blockquote.testimony p{
+	text-indent: 0;
+	margin-bottom: 0.25em;
 }
 
 [epub|type~="z3998:verse"],
@@ -50,4 +57,19 @@ p span.i1{
 
 .signature{
 	font-variant: small-caps;
+}
+
+figure{
+margin: 1em auto;
+text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
 }
