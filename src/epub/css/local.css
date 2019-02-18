@@ -3,18 +3,17 @@
 
 header{
 	text-align: center;
-	text-indent: 0;
 	font-variant: all-small-caps;
-	margin-bottom: 0.5em;
+	margin-bottom: 1em;
+}
+
+header p{
+	text-indent: 0;
 }
 
 footer p{
+	margin-top: 1em;
 	text-align: right;
-	text-indent: 0;
-}
-
-strong{
-	font-variant: small-caps;
 }
 
 span[epub|type~="subtitle"]{
