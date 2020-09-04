@@ -16,11 +16,6 @@ footer p{
 	text-align: right;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 blockquote.testimony p{
 	text-indent: 0;
 	margin-bottom: 0.25em;
