@@ -2,9 +2,9 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 header{
-	text-align: center;
 	font-variant: all-small-caps;
 	margin-bottom: 1em;
+	text-align: center;
 }
 
 header p{
@@ -17,8 +17,8 @@ footer{
 }
 
 blockquote.testimony p{
-	text-indent: 0;
 	margin-bottom: 0.5em;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p,
