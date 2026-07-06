@@ -54,7 +54,7 @@
 		<meta property="schema:wordCount">88124</meta>
 		<meta property="schema:educationalLevel">70.33</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Mystery_of_a_Hansom_Cab" rel="schema:sameAs"/>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/fergus-hume_the-mystery-of-a-hansom-cab" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Fergus Hume</dc:creator>
