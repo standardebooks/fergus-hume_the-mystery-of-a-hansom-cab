@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/fergus-hume/the-mystery-of-a-hansom-cab</dc:identifier>
 		<dc:date>2019-02-18T20:14:22Z</dc:date>
@@ -41,13 +41,13 @@
 		<meta property="schema:genre">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<dc:description id="description">A man is found dead in a hansom cab in the city of Melbourne, Australia, and a young man is accused of his murder.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A man is found dead in a hansom cab in the city of Melbourne, Australia, and a young man is accused of his murder.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Mystery of a Hansom Cab&lt;/i&gt;, published in 1886, was the first novel by &lt;a href="https://standardebooks.org/ebooks/fergus-hume"&gt;Fergus Hume&lt;/a&gt;. It begins with a sensational murder, as the body of a dead man is discovered in a hansom cab by the driver. Set in Melbourne, Australia, it presents an engaging story of crime and detection, with several unexpected twists and turns. It also gives a clear and interesting portrait of the colonial city at the peak of its 19th Century prosperity following a gold rush, a time when it was known as “Marvellous Melbourne.” The novel contrasts the comfortable lives of the rich and well-connected of the colony with the misery of those living in the noisome slums in the back-streets of the city.&lt;/p&gt;
 			&lt;p&gt;The novel, originally published in serial form in a local newspaper, achieved some initial local success when it was first released in book form, but the author then sold the rights to a British company.&lt;/p&gt;
 			&lt;p&gt;After warm initial reviews in England &lt;i&gt;The Mystery of a Hansom Cab&lt;/i&gt; became not merely a best-seller but what today we would call a “blockbuster” in the United Kingdom, its English-speaking colonies and the United States. It was the best-selling mystery novel of the Victorian era, and apparently was part of the inspiration for Conan Doyle to begin writing his Sherlock Holmes stories.&lt;/p&gt;
 			&lt;p&gt;Fergus Hume eventually left Australia and returned to England. Though little-known today, after the success of &lt;i&gt;The Mystery of a Hansom Cab&lt;/i&gt; Hume went on to write more than a hundred additional novels in the crime genre, as well as several plays.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4223</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/100763166</dc:source>
